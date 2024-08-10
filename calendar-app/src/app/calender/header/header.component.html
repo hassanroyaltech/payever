@@ -1,0 +1,10 @@
+<mat-toolbar style="margin: auto;">
+    <button mat-icon-button (click)="previous.emit()">
+      <mat-icon>chevron_left</mat-icon>
+    </button>
+    <span>{{ currentDate | date:'MMMM yyyy' }}</span>
+    <button mat-icon-button (click)="next.emit()">
+      <mat-icon>chevron_right</mat-icon>
+    </button>
+  </mat-toolbar>
+  

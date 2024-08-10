@@ -1,0 +1,12 @@
+mat-grid-tile {
+    background-color: #f7f7f7; /* light gray background */
+    border: 1px solid #ddd; /* light gray border */
+    border-radius: 5px; /* rounded corners */
+    padding: 10px; /* add some padding inside the tile */
+  }
+  .cell{
+    background: #fafafa;
+}
+.active.cell{
+    background: rgb(181, 245, 253);
+}
